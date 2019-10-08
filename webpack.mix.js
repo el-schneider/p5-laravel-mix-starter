@@ -6,7 +6,7 @@ mix.js('src/app.js', 'dist')
     .setPublicPath('dist');
     
 mix.copy('src/index.html', 'dist');
-mix.copy('src/assets/', 'dist/assets/');
+//mix.copy('src/assets/', 'dist/assets/');
 
 const DEVSERVER_PATH=config.publicPath;
 const DEVSERVER_PROXY=config.proxy;
